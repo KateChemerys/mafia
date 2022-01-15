@@ -2,8 +2,8 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  margin: 10px;
-  width: 400px;
+  padding: 10px;
+  width: 250px;
   height: 50px;
   background-color: transparent;
   color: var(--primary-color);
@@ -17,14 +17,21 @@
     color: violet;
     cursor: pointer;
   }
+
+  @media screen and (min-width: 480px) {
+    width: 400px;
+  }
 }
 
 .link {
   display: flex;
   text-decoration: none;
-  padding: 10px 80px;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.17;
   color: inherit;
+
+  @media screen and (min-width: 480px) {
+    font-size: 20px;
+  }
 }
