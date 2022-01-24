@@ -50,6 +50,14 @@ body {
   justify-content: center;
   text-align: center;
   text-shadow: 4px 4px 2px var(--shadow);
+  margin-bottom: 10px;
+}
+
+.menu__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .menu__point {
