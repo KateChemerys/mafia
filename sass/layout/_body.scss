@@ -33,12 +33,8 @@ body {
 }
 
 .hero {
-  @media screen and (min-width: 480px) {
-    max-width: 300px;
-  }
-  @media screen and (min-width: 768px) {
-    max-width: 500px;
-  }
+ height:400px;
+ max-width:500px;
 }
 
 }
