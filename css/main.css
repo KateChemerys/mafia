@@ -74,8 +74,12 @@ body {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  background: url("../../images/mf_l.png") center no-repeat;
-  background-size: contain;
+}
+
+.hero__img {
+  height: 100%;
+  width: 500px;
+  margin: auto;
   opacity: 0.8;
 }
 
